@@ -157,10 +157,10 @@ html = """
         <label for="dark-mode-toggle" title="Toggle Dark Mode"></label>
     </div>
     <form action="/article" method="post">
-        <h1>Enter Website Link</h1>
-        <label for="link">Link of the website you want to remove paywall for:</label>
+        <h1>Insira o Link do Website</h1>
+        <label for="link">Link do website que você quer remover o paywall:</label>
         <input type="text" id="link" name="link" required autofocus>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Enviar">
     </form>
 
     <script>

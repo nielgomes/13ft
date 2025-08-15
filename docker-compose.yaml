@@ -6,3 +6,6 @@ services:
     restart: unless-stopped
     ports:
       - "5000:5000"
+    volumes:
+      - ./app/index.html:/app/index.html
+      - ./app/portable.py:/app/portable.py
